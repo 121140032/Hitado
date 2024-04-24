@@ -1,0 +1,85 @@
+:root {
+  --primary: #efe9d3;
+  --bg: #ffffff;
+  --font: #8e181f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--bg);
+  color: #000000;
+}
+
+.navbar {
+  background-color: var(--primary);
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  padding: 1rem 5%;
+}
+
+.navbar a {
+  color: #000000;
+  padding: 0.1rem;
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+.container {
+  font-weight: bold;
+  display: grid;
+  width: 80%;
+  background-color: var(--primary);
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 3rem;
+}
+
+table {
+  width: auto;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+  text-align: justify;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+.container p {
+  text-align: center;
+  font-weight: bolder;
+}
+
+button {
+  border: 1px solid #8e181f;
+  padding: 10px 200px;
+  background-color: transparent;
+  color: #8e181f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+button :hover {
+  background-color: #8e181f;
+  color: #fff;
+}
