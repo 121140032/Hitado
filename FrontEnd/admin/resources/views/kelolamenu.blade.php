@@ -55,12 +55,12 @@
                                 <label for="menu_name">Nama Menu:</label><br>
                                 <input type="text" id="menu_name" name="menu_name" placeholder="Masukkan Nama Menu" style="padding: 10px; width: 100%; border-radius: 5px; border: 1px solid #ccc; margin-bottom: 10px;"><br>
                                 <label for="menu_price">Harga:</label><br>
-                                <input type="text" id="menu_price" name="menu_price" placeholder="Masukkan Harga Menu"  style="padding: 10px; width: 100%; border-radius: 5px; border: 1px solid #ccc; margin-bottom: 10px;"><br>
+                                <input type="number" id="menu_price" name="menu_price" placeholder="Masukkan Harga Menu"  style="padding: 10px; width: 100%; border-radius: 5px; border: 1px solid #ccc; margin-bottom: 10px;"><br>
                                 <label for="menu_price">Komposisi:</label><br>
                                 <!-- Input komposisi disini -->
                                 <div class="komposisi" id="" name="komposisi" style="display:flex; padding: 10px; border-radius: 5px; width: 50%; border: 1px solid #ccc; margin-bottom: 10px;" >
                                     <input type="text" placeholder="ID Bahan" style="border: 0;  margin-right:5px; width: 85%;">
-                                    <input type="text" placeholder="Quantitiy" style="border: 0; margin-right:5px; width: 85%;">
+                                    <input type="number" placeholder="Quantitiy" style="border: 0; margin-right:5px; width: 85%;">
                                     <select name="quantity" id="quantity" style="float: right; border: 0;">
                                     <option value="gram">gr</option>
                                     <option value="mililiter">ml</option>
@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="komposisi" id="" name="komposisi" style="display:flex; padding: 10px; border-radius: 5px; width: 50%; border: 1px solid #ccc; margin-bottom: 10px;" >
                                     <input type="text" placeholder="ID Bahan" style="border: 0;  margin-right:5px; width: 85%;">
-                                    <input type="text" placeholder="Quantitiy" style="border: 0; margin-right:5px; width: 85%;">
+                                    <input type="number" placeholder="Quantitiy" style="border: 0; margin-right:5px; width: 85%;">
                                     <select name="quantity" id="quantity" style="float: right; border: 0;">
                                     <option value="gram">gr</option>
                                     <option value="mililiter">ml</option>
@@ -76,7 +76,7 @@
                                 </div>
                                 <div class="komposisi" id="" name="komposisi" style="display:flex; padding: 10px; border-radius: 5px; width: 50%; border: 1px solid #ccc; margin-bottom: 10px;" >
                                     <input type="text" placeholder="ID Bahan" style="border: 0;  margin-right:5px; width: 85%;">
-                                    <input type="text" placeholder="Quantitiy" style="border: 0; margin-right:5px; width: 85%;">
+                                    <input type="number" placeholder="Quantitiy" style="border: 0; margin-right:5px; width: 85%;">
                                     <select name="quantity" id="quantity" style="float: right; border: 0;">
                                     <option value="gram">gr</option>
                                     <option value="mililiter">ml</option>
@@ -84,7 +84,7 @@
                                 </div>
                                 <div class="komposisi" id="" name="komposisi" style="display:flex; padding: 10px; border-radius: 5px; width: 50%; border: 1px solid #ccc; margin-bottom: 10px;" >
                                     <input type="text" placeholder="ID Bahan" style="border: 0;  margin-right:5px; width: 85%;">
-                                    <input type="text" placeholder="Quantitiy" style="border: 0; margin-right:5px; width: 85%;">
+                                    <input type="number" placeholder="Quantitiy" style="border: 0; margin-right:5px; width: 85%;">
                                     <select name="quantity" id="quantity" style="float: right; border: 0;">
                                     <option value="gram">gr</option>
                                     <option value="mililiter">ml</option>

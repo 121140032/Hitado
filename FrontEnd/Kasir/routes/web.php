@@ -28,3 +28,7 @@ Route::get('/tentangkami', function () {
 Route::get('/kelolamenu', function () {
     return view('kelolamenu');
 });
+
+Route::get('/kelolapesanan', function () {
+    return view('kelolapesanan');
+});
