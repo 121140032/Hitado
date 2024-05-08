@@ -68,6 +68,9 @@ Route::get('/pelanggan-tentang', function () {
     return view('Pelanggan.tentang');
 })->name('pelanggan-tentang');
 
+Route::get('/pelanggan-statuspesanan', function () {
+    return view('Pelanggan.statuspesanan');
+})->name('pelanggan-statuspesanan');
 
 
 Route::get('/test', [Homepage1Controller::class,'index'])->name('test');

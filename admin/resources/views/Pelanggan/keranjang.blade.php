@@ -30,11 +30,11 @@
                     <input type="number" name="place" class="input-responsive" value="1" required style="width: 50px; padding: 5px; border: 1px solid #c6c5c5; border-radius: 5px; text-align:center;">
                 </div>
             </div>
-            <fieldset style="border: none; background-color: #f8f9fa; padding: 10px 120px; margin: 30px; display: flex;">
+            <fieldset style="border: none; background-color: #f8f9fa; padding: 10px 120px; margin: 30px; display: flex; border-radius:20px; ">
                 <div class="food-menu-img" style="text-align: left; margin: 20px;">
-                    <img src="{{ asset('img/minuman.jpeg') }}" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    <img src="{{ asset('img/minuman.jpeg') }}" alt="Chicke Hawain Pizza" class="img-responsive img-curve" style="border-radius: 15px;">
                 </div>
-                <div class="food-menu-desc" style="text-align: left; justify-content: center; margin: 40px;">
+                <div class="food-menu-desc mt-3" style="text-align: left; justify-content: center; margin: 40px;">
                     <h3 style="font-size: 1.5rem; margin-top: 10px; margin-bottom: 10px; color: #000000; font-family: 'DM Sans';">Chicken-rice</h3>
                     <p class="food-price" style="color: #8e181f; font-weight: bold;">Rp. 40.000</p>
                     <div class="input-container" style="display: flex; flex-direction: column; margin-top: 10px;">
